@@ -1,0 +1,25 @@
+{
+  "name": "Car3",
+  "fields": [],
+  "relationships": [
+    {
+      "relationshipType": "many-to-many",
+      "otherEntityName": "driver2",
+      "otherEntityRelationshipName": "car",
+      "relationshipName": "driver",
+      "otherEntityField": "id",
+      "ownerSide": true
+    }
+  ],
+  "changelogDate": "20200827090857",
+  "entityTableName": "car_3",
+  "dto": "mapstruct",
+  "pagination": "no",
+  "service": "serviceClass",
+  "jpaMetamodelFiltering": false,
+  "fluentMethods": true,
+  "readOnly": false,
+  "embedded": false,
+  "clientRootFolder": "",
+  "applications": "*"
+}

@@ -12,6 +12,22 @@ import activate, { ActivateState } from 'app/modules/account/activate/activate.r
 import password, { PasswordState } from 'app/modules/account/password/password.reducer';
 import settings, { SettingsState } from 'app/modules/account/settings/settings.reducer';
 import passwordReset, { PasswordResetState } from 'app/modules/account/password-reset/password-reset.reducer';
+// prettier-ignore
+import driver2, {
+  Driver2State
+} from 'app/entities/driver-2/driver-2.reducer';
+// prettier-ignore
+import car3, {
+  Car3State
+} from 'app/entities/car-3/car-3.reducer';
+// prettier-ignore
+import rankProperties, {
+  RankPropertiesState
+} from 'app/entities/rank-properties/rank-properties.reducer';
+// prettier-ignore
+import user1, {
+  User1State
+} from 'app/entities/user-1/user-1.reducer';
 /* jhipster-needle-add-reducer-import - JHipster will add reducer here */
 
 export interface IRootState {
@@ -25,6 +41,10 @@ export interface IRootState {
   readonly passwordReset: PasswordResetState;
   readonly password: PasswordState;
   readonly settings: SettingsState;
+  readonly driver2: Driver2State;
+  readonly car3: Car3State;
+  readonly rankProperties: RankPropertiesState;
+  readonly user1: User1State;
   /* jhipster-needle-add-reducer-type - JHipster will add reducer type here */
   readonly loadingBar: any;
 }
@@ -40,6 +60,10 @@ const rootReducer = combineReducers<IRootState>({
   passwordReset,
   password,
   settings,
+  driver2,
+  car3,
+  rankProperties,
+  user1,
   /* jhipster-needle-add-reducer-combine - JHipster will add reducer here */
   loadingBar,
 });

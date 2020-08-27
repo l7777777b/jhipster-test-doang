@@ -1,0 +1,27 @@
+{
+  "jhipsterTestDoangApp": {
+    "rankProperties": {
+      "home": {
+        "title": "Rank Properties",
+        "createLabel": "Create a new Rank Properties",
+        "createOrEditLabel": "Create or edit a Rank Properties",
+        "notFound": "No Rank Properties found"
+      },
+      "created": "A new Rank Properties is created with identifier {{ param }}",
+      "updated": "A Rank Properties is updated with identifier {{ param }}",
+      "deleted": "A Rank Properties is deleted with identifier {{ param }}",
+      "delete": {
+        "question": "Are you sure you want to delete Rank Properties {{ id }}?"
+      },
+      "detail": {
+        "title": "Rank Properties"
+      },
+      "rank": "Rank",
+      "minExp": "Min Exp",
+      "maxExp": "Max Exp",
+      "maxStamina": "Max Stamina",
+      "maxAlly": "Max Ally",
+      "maxTeam": "Max Team"
+    }
+  }
+}
