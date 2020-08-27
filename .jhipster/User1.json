@@ -1,0 +1,36 @@
+{
+  "name": "User1",
+  "fields": [
+    {
+      "fieldName": "taskMode",
+      "fieldType": "TaskMode",
+      "fieldValues": "NO_CONTINUE_STAGE_COUNT,STAGE_COUNT,STAGE_ID",
+      "fieldValidateRules": ["required"]
+    },
+    {
+      "fieldName": "value",
+      "fieldType": "Integer",
+      "fieldValidateRules": ["required"]
+    }
+  ],
+  "relationships": [
+    {
+      "relationshipType": "many-to-one",
+      "otherEntityName": "user1",
+      "otherEntityRelationshipName": "user1",
+      "relationshipName": "referral",
+      "otherEntityField": "id"
+    }
+  ],
+  "changelogDate": "20200827091057",
+  "entityTableName": "user_1",
+  "dto": "mapstruct",
+  "pagination": "no",
+  "service": "serviceClass",
+  "jpaMetamodelFiltering": false,
+  "fluentMethods": true,
+  "readOnly": false,
+  "embedded": false,
+  "clientRootFolder": "",
+  "applications": "*"
+}

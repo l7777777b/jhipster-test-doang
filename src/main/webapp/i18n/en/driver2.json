@@ -1,0 +1,22 @@
+{
+  "jhipsterTestDoangApp": {
+    "driver2": {
+      "home": {
+        "title": "Driver 2 S",
+        "createLabel": "Create a new Driver 2",
+        "createOrEditLabel": "Create or edit a Driver 2",
+        "notFound": "No Driver 2 S found"
+      },
+      "created": "A new Driver 2 is created with identifier {{ param }}",
+      "updated": "A Driver 2 is updated with identifier {{ param }}",
+      "deleted": "A Driver 2 is deleted with identifier {{ param }}",
+      "delete": {
+        "question": "Are you sure you want to delete Driver 2 {{ id }}?"
+      },
+      "detail": {
+        "title": "Driver 2"
+      },
+      "car": "Car"
+    }
+  }
+}

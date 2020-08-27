@@ -1,0 +1,7 @@
+export const enum TaskMode {
+  NO_CONTINUE_STAGE_COUNT = 'NO_CONTINUE_STAGE_COUNT',
+
+  STAGE_COUNT = 'STAGE_COUNT',
+
+  STAGE_ID = 'STAGE_ID',
+}
